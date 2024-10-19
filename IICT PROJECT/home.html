@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALI EXPRESS</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <style>
+         body{
+            margin:0px;
+            padding:0px;
+            top:0px;
+            bottom: 0px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:white;
+        }
+        nav{
+            background-color: black;
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+        }
+        #nav{
+            background-color:rgb(44, 33, 88);
+            color:white;
+            display:flex;
+            flex-direction:row;
+           padding-top: 10px;
+            padding-left: 100px;
+            height:30px;
+        }
+   
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+            font-size: 16px;
+            padding-left: 50px;
+            color:white;
+        }
+        input{
+            margin:10px;
+            height:29.45px;
+            width:40vw;
+            border-radius: 5px;
+            
+        }
+        img{
+            height:60px;
+        }
+      
+       .img1{
+        display: flex;
+        flex-direction: row;
+       }
+       #img1{
+        width:45vw;
+        height:320px;
+       
+       
+        bottom:1px;
+       }
+       #img2{
+        width:734px;
+        height:320px;
+        
+       }
+
+       .middle{
+        position: relative;
+        bottom:4px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white
+   }
+   .img3{
+    height:400px;
+    width:350px;
+    animation-name: aliimg3;
+    animation-duration: 8s;
+    animation-iteration-count:1;
+   }
+   .img4{
+    height:400px;
+    width:350px;
+    animation-name: aliimg4;
+    animation-duration: 8s;
+    animation-iteration-count:1;
+   }
+   @keyframes aliimg3 {
+        from {
+            position:relative;
+            left:1000px;
+        }
+
+        to {
+            position:relative;
+            left:0px;
+        }
+    }
+    @keyframes aliimg4 {
+        from {
+            position:relative;
+            right:1000px;
+        }
+
+        to {
+            position:relative;
+            right:0px;
+        }
+    }
+    #middletext1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .container{
+        background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-top:50px ;
+    height:480px;
+  
+ }
+ .img5
+ {
+    width:300px;
+    height:400px;
+ }
+ .img5inner{
+    text-align: center;
+    color:white;
+    
+ }
+ #video{
+    width:98.75vw;
+ }
+ footer{
+    position: relative;
+    bottom:5px;
+    background-color: rgb(12, 16, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:250px;
+}
+.container1{
+    position: relative;
+    top:40px;
+    left:40px;
+}
+#img6{
+    position: relative;
+    left:50px;
+}
+.container1inner{
+    display: flex;
+    flex-direction: row;
+}
+
+ .icons {
+    display: flex;
+    flex-direction: row;
+    
+ }
+ 
+ 
+
+
+.container2{
+    position: relative;
+    top:40px;
+    
+}
+.container2inner{
+    display: flex;
+    flex-direction: row;
+}
+
+.container3{
+    position: relative;
+    top:40px;
+    
+}
+ del{
+    color:red;
+ }
+ 
+ 
+    </style>
+</head>
+    <body>
+        <nav><img src="logo1.png" alt="Error Loading Image">
+            <div><input type="text" placeholder="Search Here"></div>
+        </nav>
+        <div id="nav">
+            <a href="home.html" target="_blank"><li>Home</li></a>
+            <a href="signup.html" target="_blank"><li>Signup</li></a>
+            <a href="login.html" target="_blank"><li>Login</li></a>
+            <a href="info.html" target="_blank"><li>Info</li></a>
+            </div>
+        <div class="img1">
+            <div>
+            <img id="img1" src="Picture1.png" alt="">
+        </div>
+            <div>
+            <video controls id="img2" src="img2.mp4" alt="" loop muted autoplay>
+        </div>
+        </div>
+        <div class="middle">
+            <div>
+            <img class="img3" src="img3.webp" alt="">
+             </div>
+        <div>
+            <img class="img4" src="img4.webp" alt="">
+        </div>
+        </div>
+        <div>
+            <h1 id="middletext1">ALI SHOPPING NEW ARRIVALS</h1>
+        </div>
+        <div class="container">
+            <div><a href="item1.html" target="_blank" src=""><img class="img5" src="img51.webp" alt=""><div class="img5inner"><b>PRINTED SHIRT<div><del>₨4,550PKR </del> ₨2,370PKR</div></b></div></a></div>
+            <div><a href="item2.html" target="_blank" src=""><img class="img5" src="img52.jpg" alt=""><div class="img5inner"><b>FUSCHIA GLIMMER-3PC <div><del>₨6,250PKR </del> ₨3,370PKR</div></b></div></a></div>
+            <div><a href="item3.html" target="_blank" src=""><img class="img5" src="img53.webp" alt=""><div class="img5inner"> <b>TANK TOP <div><del>₨4,550PKR </del> ₨2,370PKR</div></b></div></a></div>
+        </div>
+        <div class="container">
+            <div><a href="item4.html" target="_blank" src=""><img class="img5" src="img54.webp" alt=""><div class="img5inner"> <b>SILVER FROST-3PC <div><del>₨8,250PKR </del> ₨4,370PKR</div></b></div></a></div>
+            <div><a href="item5.html" target="_blank" src=""><img class="img5" src="img55.webp" alt=""><div class="img5inner"><b>PUFFER HOODED JACKET <div><del>₨4,550PKR </del> ₨2,370PKR</div></b></div></a></div>
+            <div><a href="item6.html" target="_blank" src=""><img class="img5" src="img56.webp" alt=""><div class="img5inner"> <b>AQUA FLAIR-3PC <div><del>₨6,850PKR </del> ₨3,770PKR</div></b></div></a></div>
+        </div>
+        <div class="container">
+            <div><a href="item7.html" target="_blank" src=""><img class="img5" src="img57.webp" alt=""><div class="img5inner"> <b>QUILTED DENIM JACKET <div><del>₨7,550PKR </del> ₨4,370PKR</div></b></div></a></div>
+            <div><a href="item8.html" target="_blank" src=""><img class="img5" src="img58.webp" alt=""><div class="img5inner"><b>CARDINAL GILD-3PC <div><del>₨6,250PKR </del> ₨3,370PKR</div></b></div></a></div>
+            <div><a href="item9.html" target="_blank" src=""><img class="img5" src="img59.webp" alt=""><div class="img5inner"> <b>QUILTED JACKET <div><del>₨5,550PKR </del> ₨2,370PKR</div></b></div></a></div>
+        </div>
+        <div><video id="video"controls  src="q1.webm" type="video/mp4"></video></div>
+        <footer>
+            <div class="container1">
+             <li><ion-icon name="call-outline"></ion-icon>CONTACT</li>
+             <img id="img6" src="logo1.png" alt="">
+             <div class="container1inner">
+             <div>
+             <li><ion-icon name="call-outline"></ion-icon>Contact</li>
+             <br>
+                 <li>+9234773737</li>
+                 <br>  
+                 <div class="icons">
+                 <li><a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></li>  
+                 <li><a href="twitter.com"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                 <li><a href="instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                 <li><a href="youtube.com"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                 </div>
+             </div>
+             <div>
+                 <li><ion-icon name="location-outline"></ion-icon>Location</li>
+                 <br>
+                 <li>ALI-House</li>
+                 <li>Rose Lane,G/9/4</li>
+                 <li>Rawalpindi-44000</li>
+                 
+             </div>
+             </div>
+             </div>
+             <div class="container2">
+             <li><ion-icon name="link-outline"></ion-icon><a id="hover" style="color: skyblue" href="">  syedalihashim@gmail.com</a></li>
+             <br>
+             <div class="container2inner">
+                 <div>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Trousers</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Tshirts</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Denim</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Jackets</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Hoods</li>
+                 </div>
+                 <div>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Puffer Jackets</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Tank Top</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Caps</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Belts</li>
+                     <li><ion-icon name="chevron-forward-outline"></ion-icon>Shorts</li>
+                 </div>
+             </div>
+         </div>
+         <div class="container3">
+             <li><ion-icon name="home-outline"></ion-icon>BRANCHES</li>
+             <br>
+             <li><ion-icon name="chevron-forward-outline"></ion-icon>Rawalpindi</li>
+             <li><ion-icon name="chevron-forward-outline"></ion-icon>Islamabad</li>
+             <li><ion-icon name="chevron-forward-outline"></ion-icon>Karachi</li>
+             <li><ion-icon name="chevron-forward-outline"></ion-icon>Faisalabad</li>
+         </div>
+         </footer> 
+</body>
+</html>
